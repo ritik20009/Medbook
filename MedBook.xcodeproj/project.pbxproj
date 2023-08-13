@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAC4203C425D09F7FE3C150 /* Pods_MedBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1789A38882C8CEE70672EA07 /* Pods_MedBook.framework */; };
+		2D72A3382A82A7310064CF33 /* DRDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A3372A82A7310064CF33 /* DRDBManager.swift */; };
+		2D72A3422A82BD610064CF33 /* DRLandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A33F2A82BD610064CF33 /* DRLandingPageViewController.swift */; };
+		2D72A3442A82BD610064CF33 /* DRLandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A3412A82BD610064CF33 /* DRLandingPageView.swift */; };
+		2D72A3482A82BD7C0064CF33 /* DRStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A3452A82BD7C0064CF33 /* DRStringConstants.swift */; };
+		2D72A3492A82BD7C0064CF33 /* DRPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A3462A82BD7C0064CF33 /* DRPadding.swift */; };
+		2D72A34A2A82BD7C0064CF33 /* IconCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A3472A82BD7C0064CF33 /* IconCodeUtils.swift */; };
+		2D72A34C2A82C79D0064CF33 /* DRColorStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A34B2A82C79D0064CF33 /* DRColorStyling.swift */; };
+		2D72A3502A82CFF40064CF33 /* DRHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A34E2A82CFF40064CF33 /* DRHomePageView.swift */; };
+		2D72A3512A82CFF40064CF33 /* DRHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72A34F2A82CFF40064CF33 /* DRHomePageViewController.swift */; };
+		2D87A3F12A87EF76001DE6F1 /* DRLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3EC2A87EF76001DE6F1 /* DRLoginView.swift */; };
+		2D87A3F22A87EF76001DE6F1 /* DRCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3ED2A87EF76001DE6F1 /* DRCustomTextField.swift */; };
+		2D87A3F52A87EF76001DE6F1 /* DRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3F02A87EF76001DE6F1 /* DRButton.swift */; };
+		2D87A3FA2A87EF99001DE6F1 /* DRSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3F72A87EF98001DE6F1 /* DRSignUpViewController.swift */; };
+		2D87A3FC2A87EF99001DE6F1 /* DRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3F92A87EF98001DE6F1 /* DRLoginViewController.swift */; };
+		2D87A3FF2A87F04E001DE6F1 /* DRContentViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A3FE2A87F04E001DE6F1 /* DRContentViewData.swift */; };
+		2D87A4032A880B44001DE6F1 /* DRHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A4022A880B44001DE6F1 /* DRHasher.swift */; };
+		2D87A4072A880E06001DE6F1 /* DRNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A4052A880E06001DE6F1 /* DRNetworkManager.swift */; };
+		2D87A4082A880E06001DE6F1 /* CountriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D87A4062A880E06001DE6F1 /* CountriesAPI.swift */; };
+		92C46F152A826B4E00D763A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C46F142A826B4E00D763A0 /* AppDelegate.swift */; };
+		92C46F172A826B4E00D763A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C46F162A826B4E00D763A0 /* SceneDelegate.swift */; };
+		92C46F192A826B4E00D763A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C46F182A826B4E00D763A0 /* ViewController.swift */; };
+		92C46F1E2A826B4F00D763A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C46F1D2A826B4F00D763A0 /* Assets.xcassets */; };
+		92C46F212A826B4F00D763A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C46F1F2A826B4F00D763A0 /* LaunchScreen.storyboard */; };
+		9B410CA42A82900A00381F17 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B410CA32A82900A00381F17 /* Degular-Medium.ttf */; };
+		9B410CA52A82901000381F17 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B410CA22A828FFE00381F17 /* Degular-Bold.ttf */; };
+		9B410CA72A82901B00381F17 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B410CA62A82901B00381F17 /* Degular-Regular.ttf */; };
+		9B410CA92A82902A00381F17 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B410CA82A82902A00381F17 /* Degular-Semibold.ttf */; };
+		9B410CAC2A82912200381F17 /* CustomFontStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B410CAB2A82912200381F17 /* CustomFontStyling.swift */; };
+		9B410CAF2A8293E600381F17 /* DRAuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B410CAE2A8293E600381F17 /* DRAuthenticationProtocol.swift */; };
+		9B410CB12A82952E00381F17 /* DRAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B410CB02A82952E00381F17 /* DRAuthenticationHandler.swift */; };
+		9B5322872A88ACBC0068DD47 /* DRLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5322862A88ACBC0068DD47 /* DRLoginViewModel.swift */; };
+		9B5322892A88ACDD0068DD47 /* DRSignUPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5322882A88ACDD0068DD47 /* DRSignUPViewModel.swift */; };
+		9B53228B2A88AD940068DD47 /* CheckBoxWithTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53228A2A88AD940068DD47 /* CheckBoxWithTitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1789A38882C8CEE70672EA07 /* Pods_MedBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72A3372A82A7310064CF33 /* DRDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRDBManager.swift; sourceTree = "<group>"; };
+		2D72A33F2A82BD610064CF33 /* DRLandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRLandingPageViewController.swift; sourceTree = "<group>"; };
+		2D72A3412A82BD610064CF33 /* DRLandingPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRLandingPageView.swift; sourceTree = "<group>"; };
+		2D72A3452A82BD7C0064CF33 /* DRStringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRStringConstants.swift; sourceTree = "<group>"; };
+		2D72A3462A82BD7C0064CF33 /* DRPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRPadding.swift; sourceTree = "<group>"; };
+		2D72A3472A82BD7C0064CF33 /* IconCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCodeUtils.swift; sourceTree = "<group>"; };
+		2D72A34B2A82C79D0064CF33 /* DRColorStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRColorStyling.swift; sourceTree = "<group>"; };
+		2D72A34E2A82CFF40064CF33 /* DRHomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRHomePageView.swift; sourceTree = "<group>"; };
+		2D72A34F2A82CFF40064CF33 /* DRHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRHomePageViewController.swift; sourceTree = "<group>"; };
+		2D87A3EC2A87EF76001DE6F1 /* DRLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRLoginView.swift; sourceTree = "<group>"; };
+		2D87A3ED2A87EF76001DE6F1 /* DRCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRCustomTextField.swift; sourceTree = "<group>"; };
+		2D87A3F02A87EF76001DE6F1 /* DRButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRButton.swift; sourceTree = "<group>"; };
+		2D87A3F72A87EF98001DE6F1 /* DRSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRSignUpViewController.swift; sourceTree = "<group>"; };
+		2D87A3F92A87EF98001DE6F1 /* DRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRLoginViewController.swift; sourceTree = "<group>"; };
+		2D87A3FE2A87F04E001DE6F1 /* DRContentViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRContentViewData.swift; sourceTree = "<group>"; };
+		2D87A4022A880B44001DE6F1 /* DRHasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRHasher.swift; sourceTree = "<group>"; };
+		2D87A4052A880E06001DE6F1 /* DRNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRNetworkManager.swift; sourceTree = "<group>"; };
+		2D87A4062A880E06001DE6F1 /* CountriesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesAPI.swift; sourceTree = "<group>"; };
+		92C46F112A826B4E00D763A0 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C46F142A826B4E00D763A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92C46F162A826B4E00D763A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92C46F182A826B4E00D763A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92C46F1D2A826B4F00D763A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C46F202A826B4F00D763A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C46F222A826B4F00D763A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B410CA22A828FFE00381F17 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
+		9B410CA32A82900A00381F17 /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
+		9B410CA62A82901B00381F17 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
+		9B410CA82A82902A00381F17 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
+		9B410CAB2A82912200381F17 /* CustomFontStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontStyling.swift; sourceTree = "<group>"; };
+		9B410CAE2A8293E600381F17 /* DRAuthenticationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRAuthenticationProtocol.swift; sourceTree = "<group>"; };
+		9B410CB02A82952E00381F17 /* DRAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRAuthenticationHandler.swift; sourceTree = "<group>"; };
+		9B5322862A88ACBC0068DD47 /* DRLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRLoginViewModel.swift; sourceTree = "<group>"; };
+		9B5322882A88ACDD0068DD47 /* DRSignUPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRSignUPViewModel.swift; sourceTree = "<group>"; };
+		9B53228A2A88AD940068DD47 /* CheckBoxWithTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxWithTitleView.swift; sourceTree = "<group>"; };
+		9CAE44C899AA9D8441C7D760 /* Pods-MedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedBook.release.xcconfig"; path = "Target Support Files/Pods-MedBook/Pods-MedBook.release.xcconfig"; sourceTree = "<group>"; };
+		EEE053A09B690969D288AC50 /* Pods-MedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedBook.debug.xcconfig"; path = "Target Support Files/Pods-MedBook/Pods-MedBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C46F0E2A826B4E00D763A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAC4203C425D09F7FE3C150 /* Pods_MedBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D72A3362A82A7150064CF33 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				2D72A3372A82A7310064CF33 /* DRDBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		2D72A33D2A82BC660064CF33 /* UICommons */ = {
+			isa = PBXGroup;
+			children = (
+				2D72A3462A82BD7C0064CF33 /* DRPadding.swift */,
+				2D72A3452A82BD7C0064CF33 /* DRStringConstants.swift */,
+				2D72A34B2A82C79D0064CF33 /* DRColorStyling.swift */,
+				2D72A3472A82BD7C0064CF33 /* IconCodeUtils.swift */,
+			);
+			path = UICommons;
+			sourceTree = "<group>";
+		};
+		2D87A3EB2A87EF76001DE6F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D87A3EC2A87EF76001DE6F1 /* DRLoginView.swift */,
+				2D87A3ED2A87EF76001DE6F1 /* DRCustomTextField.swift */,
+				2D87A3F02A87EF76001DE6F1 /* DRButton.swift */,
+				9B53228A2A88AD940068DD47 /* CheckBoxWithTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D87A3FD2A87F037001DE6F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D87A3FE2A87F04E001DE6F1 /* DRContentViewData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D87A4042A880E06001DE6F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D87A4052A880E06001DE6F1 /* DRNetworkManager.swift */,
+				2D87A4062A880E06001DE6F1 /* CountriesAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		92C46F082A826B4D00D763A0 = {
+			isa = PBXGroup;
+			children = (
+				92C46F132A826B4E00D763A0 /* MedBook */,
+				92C46F122A826B4E00D763A0 /* Products */,
+				9BAB7E79E1CD7A25CF035A33 /* Pods */,
+				DE15D97A4F50CECD22D10ADE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92C46F122A826B4E00D763A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C46F112A826B4E00D763A0 /* MedBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C46F132A826B4E00D763A0 /* MedBook */ = {
+			isa = PBXGroup;
+			children = (
+				9B53227F2A88AA5E0068DD47 /* Medbook Pages */,
+				2D87A4042A880E06001DE6F1 /* Networking */,
+				2D87A3FD2A87F037001DE6F1 /* Models */,
+				2D87A3EB2A87EF76001DE6F1 /* Views */,
+				2D72A33D2A82BC660064CF33 /* UICommons */,
+				2D72A3362A82A7150064CF33 /* DBManager */,
+				9B410CAA2A82903E00381F17 /* Theming */,
+				9B410CAD2A8293C800381F17 /* Authentication */,
+				9B410CA12A828FD500381F17 /* Assets */,
+				92C46F142A826B4E00D763A0 /* AppDelegate.swift */,
+				92C46F162A826B4E00D763A0 /* SceneDelegate.swift */,
+				92C46F182A826B4E00D763A0 /* ViewController.swift */,
+				92C46F1F2A826B4F00D763A0 /* LaunchScreen.storyboard */,
+				92C46F222A826B4F00D763A0 /* Info.plist */,
+			);
+			path = MedBook;
+			sourceTree = "<group>";
+		};
+		9B410CA12A828FD500381F17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				92C46F1D2A826B4F00D763A0 /* Assets.xcassets */,
+				9B410CA22A828FFE00381F17 /* Degular-Bold.ttf */,
+				9B410CA32A82900A00381F17 /* Degular-Medium.ttf */,
+				9B410CA62A82901B00381F17 /* Degular-Regular.ttf */,
+				9B410CA82A82902A00381F17 /* Degular-Semibold.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9B410CAA2A82903E00381F17 /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				9B410CAB2A82912200381F17 /* CustomFontStyling.swift */,
+			);
+			path = Theming;
+			sourceTree = "<group>";
+		};
+		9B410CAD2A8293C800381F17 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9B410CAE2A8293E600381F17 /* DRAuthenticationProtocol.swift */,
+				9B410CB02A82952E00381F17 /* DRAuthenticationHandler.swift */,
+				2D87A4022A880B44001DE6F1 /* DRHasher.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9B53227F2A88AA5E0068DD47 /* Medbook Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9B5322852A88AB980068DD47 /* Login Page */,
+				9B5322842A88AB8F0068DD47 /* SignUP Page */,
+				9B5322812A88AA800068DD47 /* Landing Page */,
+				9B5322802A88AA790068DD47 /* Home Page */,
+			);
+			path = "Medbook Pages";
+			sourceTree = "<group>";
+		};
+		9B5322802A88AA790068DD47 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				2D72A34E2A82CFF40064CF33 /* DRHomePageView.swift */,
+				2D72A34F2A82CFF40064CF33 /* DRHomePageViewController.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		9B5322812A88AA800068DD47 /* Landing Page */ = {
+			isa = PBXGroup;
+			children = (
+				2D72A3412A82BD610064CF33 /* DRLandingPageView.swift */,
+				2D72A33F2A82BD610064CF33 /* DRLandingPageViewController.swift */,
+			);
+			path = "Landing Page";
+			sourceTree = "<group>";
+		};
+		9B5322842A88AB8F0068DD47 /* SignUP Page */ = {
+			isa = PBXGroup;
+			children = (
+				2D87A3F72A87EF98001DE6F1 /* DRSignUpViewController.swift */,
+				9B5322882A88ACDD0068DD47 /* DRSignUPViewModel.swift */,
+			);
+			path = "SignUP Page";
+			sourceTree = "<group>";
+		};
+		9B5322852A88AB980068DD47 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				2D87A3F92A87EF98001DE6F1 /* DRLoginViewController.swift */,
+				9B5322862A88ACBC0068DD47 /* DRLoginViewModel.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		9BAB7E79E1CD7A25CF035A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE053A09B690969D288AC50 /* Pods-MedBook.debug.xcconfig */,
+				9CAE44C899AA9D8441C7D760 /* Pods-MedBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE15D97A4F50CECD22D10ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1789A38882C8CEE70672EA07 /* Pods_MedBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C46F102A826B4E00D763A0 /* MedBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C46F252A826B4F00D763A0 /* Build configuration list for PBXNativeTarget "MedBook" */;
+			buildPhases = (
+				F42251CD194E2FA42E6B4E2B /* [CP] Check Pods Manifest.lock */,
+				92C46F0D2A826B4E00D763A0 /* Sources */,
+				92C46F0E2A826B4E00D763A0 /* Frameworks */,
+				92C46F0F2A826B4E00D763A0 /* Resources */,
+				86B91F29328C48460C56EA2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedBook;
+			productName = MedBook;
+			productReference = 92C46F112A826B4E00D763A0 /* MedBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C46F092A826B4D00D763A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					92C46F102A826B4E00D763A0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 92C46F0C2A826B4D00D763A0 /* Build configuration list for PBXProject "MedBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C46F082A826B4D00D763A0;
+			productRefGroup = 92C46F122A826B4E00D763A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C46F102A826B4E00D763A0 /* MedBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C46F0F2A826B4E00D763A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B410CA72A82901B00381F17 /* Degular-Regular.ttf in Resources */,
+				9B410CA92A82902A00381F17 /* Degular-Semibold.ttf in Resources */,
+				9B410CA52A82901000381F17 /* Degular-Bold.ttf in Resources */,
+				9B410CA42A82900A00381F17 /* Degular-Medium.ttf in Resources */,
+				92C46F212A826B4F00D763A0 /* LaunchScreen.storyboard in Resources */,
+				92C46F1E2A826B4F00D763A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86B91F29328C48460C56EA2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42251CD194E2FA42E6B4E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C46F0D2A826B4E00D763A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D87A3FF2A87F04E001DE6F1 /* DRContentViewData.swift in Sources */,
+				2D87A4032A880B44001DE6F1 /* DRHasher.swift in Sources */,
+				2D87A3FA2A87EF99001DE6F1 /* DRSignUpViewController.swift in Sources */,
+				9B5322892A88ACDD0068DD47 /* DRSignUPViewModel.swift in Sources */,
+				9B410CAF2A8293E600381F17 /* DRAuthenticationProtocol.swift in Sources */,
+				9B410CB12A82952E00381F17 /* DRAuthenticationHandler.swift in Sources */,
+				9B53228B2A88AD940068DD47 /* CheckBoxWithTitleView.swift in Sources */,
+				92C46F192A826B4E00D763A0 /* ViewController.swift in Sources */,
+				2D72A3512A82CFF40064CF33 /* DRHomePageViewController.swift in Sources */,
+				2D87A3F12A87EF76001DE6F1 /* DRLoginView.swift in Sources */,
+				92C46F152A826B4E00D763A0 /* AppDelegate.swift in Sources */,
+				2D72A3422A82BD610064CF33 /* DRLandingPageViewController.swift in Sources */,
+				2D72A34C2A82C79D0064CF33 /* DRColorStyling.swift in Sources */,
+				2D87A3FC2A87EF99001DE6F1 /* DRLoginViewController.swift in Sources */,
+				2D72A3442A82BD610064CF33 /* DRLandingPageView.swift in Sources */,
+				92C46F172A826B4E00D763A0 /* SceneDelegate.swift in Sources */,
+				2D87A4072A880E06001DE6F1 /* DRNetworkManager.swift in Sources */,
+				9B5322872A88ACBC0068DD47 /* DRLoginViewModel.swift in Sources */,
+				2D72A3492A82BD7C0064CF33 /* DRPadding.swift in Sources */,
+				2D87A3F22A87EF76001DE6F1 /* DRCustomTextField.swift in Sources */,
+				2D87A4082A880E06001DE6F1 /* CountriesAPI.swift in Sources */,
+				2D72A3482A82BD7C0064CF33 /* DRStringConstants.swift in Sources */,
+				2D72A3502A82CFF40064CF33 /* DRHomePageView.swift in Sources */,
+				9B410CAC2A82912200381F17 /* CustomFontStyling.swift in Sources */,
+				2D72A34A2A82BD7C0064CF33 /* IconCodeUtils.swift in Sources */,
+				2D87A3F52A87EF76001DE6F1 /* DRButton.swift in Sources */,
+				2D72A3382A82A7310064CF33 /* DRDBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92C46F1F2A826B4F00D763A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C46F202A826B4F00D763A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C46F232A826B4F00D763A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C46F242A826B4F00D763A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C46F262A826B4F00D763A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE053A09B690969D288AC50 /* Pods-MedBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XDGB49394;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ritik-Raj.MedBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92C46F272A826B4F00D763A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAE44C899AA9D8441C7D760 /* Pods-MedBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XDGB49394;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ritik-Raj.MedBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C46F0C2A826B4D00D763A0 /* Build configuration list for PBXProject "MedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C46F232A826B4F00D763A0 /* Debug */,
+				92C46F242A826B4F00D763A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C46F252A826B4F00D763A0 /* Build configuration list for PBXNativeTarget "MedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C46F262A826B4F00D763A0 /* Debug */,
+				92C46F272A826B4F00D763A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C46F092A826B4D00D763A0 /* Project object */;
+}
